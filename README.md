@@ -23,18 +23,22 @@ This project bridges classical Tamil literature and modern machine learning, mak
 
 ✅ Configurable number of results (up to 15 kurals)
 
-## System Architecture
-User Query
-   ↓
-Sentence Transformer (Embedding)
-   ↓
-FAISS Vector Search
-   ↓
-Relevant Thirukkural Retrieval
-   ↓
+## 🧠 System Architecture
+
+User Query  
+&nbsp;&nbsp;&nbsp;&nbsp;↓  
+Sentence Transformer (Embedding)  
+&nbsp;&nbsp;&nbsp;&nbsp;↓  
+FAISS Vector Search  
+&nbsp;&nbsp;&nbsp;&nbsp;↓  
+Relevant Thirukkural Retrieval  
+&nbsp;&nbsp;&nbsp;&nbsp;↓  
 Streamlit Chat Interface
 
- ## Project Structure
+
+## 📂 Project Structure
+
+```text
 thirukkural_chatbot/
 │
 ├── app.py                      # Streamlit chat UI
@@ -45,6 +49,7 @@ thirukkural_chatbot/
 ├── thirukkural.pkl             # Pickled dataset
 ├── requirements.txt
 └── README.md
+```
 
 ## Dataset Description
 
